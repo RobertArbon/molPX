@@ -3,6 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. toctre:: 
+   
+   index <Welcome>
+
+
 Welcome to Projection Explorer's Documentation!
 ===============================================
 Projection Explorer (projX) is a python module that provides **interactive visualization of projected coordinates
