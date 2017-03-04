@@ -3,10 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. toctree::
+.. toctree :: this has been commented because nasty bug
+              https://github.com/rtfd/readthedocs.org/issues/2398#issuecomment-284100877
    :hidden:
 
-    Welcome <self>
+..   Welcome <self>
 
 
 Welcome to Projection Explorer

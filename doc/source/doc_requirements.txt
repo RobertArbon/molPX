@@ -1,5 +1,5 @@
 notebook
-sphinx==1.5.1
+sphinx
 sphinx_rtd_theme
 nbsphinx
 nbconvert
