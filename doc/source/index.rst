@@ -3,13 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. toctre:: 
-   
-   index <Welcome>
+.. toctree::
+   :hidden:
+
+    Welcome <self>
 
 
-Welcome to Projection Explorer's Documentation!
-===============================================
+Welcome to Projection Explorer
+==============================
 Projection Explorer (projX) is a python module that provides **interactive visualization of projected coordinates
 of molecular dynamics (MD) trajectories** inside a jupyter notebook.
 
@@ -28,7 +29,7 @@ At the moment the API consists of two subpackages:
    index_visualize
    index_generate
 
-The quickest way to see projX in action is through the 
+The quickest way to see projX in action is through the
 
 .. toctree::
    :maxdepth: 1
@@ -41,7 +42,7 @@ Find more about the people behind `projX` here:
 
     About & YouTube Introduction <about>
 
-.. contents:: 
+.. contents::
    What you'll find on this page
 
 Download and Install
@@ -65,7 +66,7 @@ Documentation
 You can build html documentation by issuing
 
     >>> cd docs
-    >>> make html 
+    >>> make html
 
 This will generate ``projection_explorer/docs/build/html/index.html`` with the html
 documentation.
@@ -89,7 +90,7 @@ When you import this Python package, some of your metadata is sent to our server
  * Time of retrieval
 
 It is very easy to disable this feature, even before you use install `projX` for the first time. Here's how
---------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 
  1. Create a hidden folder `.projX` in your home folder
  2. Create a file `projX_conf.py` inside of `.projX` with the following line:
@@ -120,7 +121,7 @@ Known Issues
 
     >>> pip install nglview
 
- * Projection Explorer only works with ``nglview`` versions >=0.6.2.1. 
+ * Projection Explorer only works with ``nglview`` versions >=0.6.2.1.
 
  * **The interplay between nglview, nbextensions, ipywidgets might limit you to use python3.X on some platforms.
    Sorry about that.**
